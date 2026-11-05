@@ -1,0 +1,9 @@
+{
+  "version": 5,
+  "configurePresets": [
+    { "name": "default", "displayName": "Lab 2 (Release)", "binaryDir": "${sourceDir}/build" }
+  ],
+  "buildPresets": [
+    { "name": "default", "configurePreset": "default", "configuration": "Release", "targets": ["lab2"] }
+  ]
+}
